@@ -1,0 +1,177 @@
+/*              --------- Banner Styling   --------   */
+
+.banner{
+    margin: 0 auto;
+    width: 60vw;
+    height: 60vh;
+    background-image: url(./safewater_og.jpg);
+    
+}
+.banner2{
+    width: 60vw;
+    height: 70%;
+    background-color: rgba(245, 222, 179, 0.39);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.banner2 h1{
+    padding-left: 1%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 35vw;
+    height: 20vh;
+    background-color: rgb(2, 2, 2);
+    margin-top: 0;
+    color: white;
+    font-size: 5.5vw;
+    margin-bottom: 0;
+}
+
+.water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.719);
+    height: 30%;
+    text-align: center;
+}
+
+.water h2{
+    padding-top: 2%;
+    font-size: 3vw;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+
+/* ------------------------------------------------- Thank Section  ---------------------------------------------- */
+
+.dear{
+    height: 40vh;
+    margin: 10px auto;
+    width: 60vw;
+    text-align: center;
+    border: solid 3px black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.dear h1{
+    padding-top: 2%;
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+    text-decoration: underline 2px ;
+    text-underline-offset: 10px;
+    color: rgb(219, 108, 17);
+}
+
+.dear h4{
+    font-size: 1.5em;
+}
+.dear span{
+    font-size: 1.9em;
+}
+
+/* ------------------------------------------------- Numbers Section  ---------------------------------------------- */
+
+.numbers{
+    background: rgba(255, 127, 80, 0.815);
+    height: 50vh;
+    width: 60vw;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+.numbers h1{
+    padding-top: 2%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.numbers h1 span{
+    font-size: 1.8em;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.numbers  img{
+    height: 40%;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.donation{
+    height: 55vh;
+    background: rgb(246, 246, 248);
+    border: solid 3px black;
+    border-top: none;
+    border-bottom: none;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.donation span{
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(219, 108, 17);
+   
+}
+
+.donation img:hover{
+    cursor: pointer;
+}
+
+/*              ------------------------------      Last section    ---------------------------                 */
+
+.last{
+    height: 30vh;
+    background: rgba(233, 232, 232, 0.63);
+    width: 60vw;
+    margin: 1% auto;
+    text-align: center;
+    letter-spacing: 1px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.last h2{
+    padding-top: 10px;
+    font-size: 1.6vw;
+
+}
+#contact{
+    font-size: 3vw;
+    color: cornflowerblue;
+    border-radius: 20%;
+}
+#contact:hover{
+    background-color:cornflowerblue ;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#contact a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#contact a:hover{
+    color: whitesmoke;
+}
+.last h3{
+    margin-top: 0;
+    letter-spacing: 3px;
+    font-size: 2vw;
+    
+}
+
+#emph{
+    color: crimson;
+    font-size: 3vw;
+}
+
